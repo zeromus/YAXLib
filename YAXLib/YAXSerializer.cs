@@ -135,9 +135,9 @@ namespace YAXLib
         /// Initializes a new instance of the <see cref="YAXSerializer"/> class.
         /// </summary>
         /// <param name="type">The type of the object being serialized/deserialized.</param>
-        /// <param name="seializationOptions">The serialization option flags.</param>
-        public YAXSerializer(Type type, YAXSerializationOptions seializationOptions)
-            : this(type, YAXExceptionHandlingPolicies.ThrowWarningsAndErrors, YAXExceptionTypes.Error, seializationOptions)
+        /// <param name="serializationOptions">The serialization option flags.</param>
+        public YAXSerializer(Type type, YAXSerializationOptions serializationOptions)
+            : this(type, YAXExceptionHandlingPolicies.ThrowWarningsAndErrors, YAXExceptionTypes.Error, serializationOptions)
         {
         }
 
